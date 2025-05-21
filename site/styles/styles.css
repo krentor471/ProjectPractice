@@ -492,3 +492,42 @@ footer {
     transform: translate(-50%, -100%);
   }
 }
+
+
+.demo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: start;
+  margin: 2rem 0;
+}
+
+.demo-item {
+  flex: 1 1 300px;
+  max-width: 30rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  height: 100%;
+}
+
+.demo-item-img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+  object-fit: cover;
+}
+
+.demo-item-img img {
+  width: 100%;
+  border-radius: 6px;
+  height: 100%;
+}
+
+.demo-item p {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+}

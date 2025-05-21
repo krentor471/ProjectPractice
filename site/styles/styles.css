@@ -32,7 +32,7 @@ h6 {
 
 .width-container {
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 3rem;
 }
 
 .width-container p + p {
@@ -50,10 +50,6 @@ h6 {
 
 .logo-container {
   display: flex;
-}
-
-p {
-  text-indent: 0.5rem;
 }
 
 .logo-container a:first-child::after {
@@ -151,6 +147,7 @@ main {
 }
 
 .content {
+  display: flex;
   flex-direction: column;
   margin-top: 2rem;
   margin-bottom: 2rem;
